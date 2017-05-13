@@ -1,4 +1,4 @@
-update=13/05/2017 18:21:59
+update=13/05/2017 21:35:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -69,3 +69,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=SN76489AN
+LibName31=TDA7056A
