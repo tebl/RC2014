@@ -1,7 +1,7 @@
 # RC2014
 
 I've been spending a lot of time lately working on extensions to the excellent
-RC2014 machine, check out the official web page at [http://rc2014.co.uk](rc2014.co.uk)
+RC2014 machine, check out the official web page at [http://rc2014.co.uk](http://rc2014.co.uk)
 if you're not familiar with it. Short story; it's a Z80-based homecomputer that
 you can build yourself using a soldering iron, lots of time and severely burned
 fingers. Unquestionably, a lot of fun!
