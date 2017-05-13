@@ -11,6 +11,11 @@ why Compact Flash cards have seen so much use within Retro-computing.
 
 ![IDE PCB](https://raw.githubusercontent.com/tebl/RC2014/master/Gallery/RC2014%20IDE/pcb.PNG)
 
+# Schematic
+The supplied KiCad files should be sufficient as both a schematic and as a starting
+point for ordering PCBs, the schematic is also available in
+[PDF-format](https://github.com/tebl/RC2014/raw/master/RC2014%20IDE/export/RC2014%20IDE.pdf).
+
 # BOM
 | Reference | Item                                  | Count |
 | --------- | ------------------------------------- | ----- |
