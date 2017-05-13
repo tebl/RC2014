@@ -13,6 +13,7 @@ why Compact Flash cards have seen so much use within Retro-computing.
 
 # BOM
 | Reference | Item                                  | Count |
+| --------- | ------------------------------------- | ----- |
 | PCB       | Fabricate yourself using KiCad files  |     1 |
 | R1 - R3   | 1k resistor                           |     3 |
 | R4        | 330 resistor                          |     1 |
