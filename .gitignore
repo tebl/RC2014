@@ -1,2 +1,6 @@
 
 Resources/
+
+*.kicad_pcb-bak
+
+*.bak
