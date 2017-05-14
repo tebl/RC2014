@@ -1,4 +1,4 @@
-update=13/05/2017 13:37:25
+update=14/05/2017 20:35:15
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,7 +66,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=D:/ownCloud/Documents/Projects/RC2014/RC2014 IDE/export/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

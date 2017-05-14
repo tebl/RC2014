@@ -105,19 +105,19 @@ F 3 "" H 10800 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10600 6100
-Text GLabel 10800 850  1    60   Input ~ 0
+Text GLabel 10400 850  1    60   Input ~ 0
 VCC
-Text GLabel 10800 1700 3    60   Input ~ 0
+Text GLabel 10400 1700 3    60   Output ~ 0
 GND
 $Comp
 L C C1
 U 1 1 590DFF2B
-P 10800 1300
-F 0 "C1" H 10825 1400 50  0000 L CNN
-F 1 "100nF" H 10825 1200 50  0000 L CNN
-F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10838 1150 50  0001 C CNN
-F 3 "" H 10800 1300 50  0001 C CNN
-	1    10800 1300
+P 10400 1300
+F 0 "C1" H 10425 1400 50  0000 L CNN
+F 1 "100nF" H 10425 1200 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10438 1150 50  0001 C CNN
+F 3 "" H 10400 1300 50  0001 C CNN
+	1    10400 1300
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10600 6000
@@ -169,9 +169,9 @@ NoConn ~ 4900 1800
 Text GLabel 4850 1050 0    60   Input ~ 0
 VCC
 Wire Wire Line
-	10800 850  10800 1150
+	10400 850  10400 1150
 Wire Wire Line
-	10800 1450 10800 1700
+	10400 1450 10400 1700
 Wire Wire Line
 	5000 1800 5000 1050
 Wire Wire Line
@@ -246,10 +246,6 @@ Text GLabel 10600 4200 0    60   Output ~ 0
 RESET
 Text GLabel 4100 2300 3    60   Input ~ 0
 RESET
-Text GLabel 5200 2300 3    60   Input ~ 0
-WR
-Text GLabel 5300 2300 3    60   Input ~ 0
-RD
 Text GLabel 1500 3000 0    60   Input ~ 0
 VCC
 $Comp
@@ -11173,7 +11169,7 @@ A5 1B 81 0A 5C 53 54 98 76 2E 98 17 5F 65 31 3F 4A B2 8C 37 E3 C1 7C 85 C6 BC 35
 EndData
 $EndBitmap
 $Bitmap
-Pos 5300 4750
+Pos 5250 6750
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 03 97 00 00 02 07 08 02 00 00 00 84 E6 3F 
@@ -17067,23 +17063,23 @@ NoConn ~ 10600 2300
 $Comp
 L CONN_01X04 J2
 U 1 1 59137E44
-P 8850 1450
-F 0 "J2" H 8850 1700 50  0000 C CNN
-F 1 "Device power" V 8950 1450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 8850 1450 50  0001 C CNN
-F 3 "" H 8850 1450 50  0001 C CNN
-	1    8850 1450
+P 7250 1300
+F 0 "J2" H 7250 1550 50  0000 C CNN
+F 1 "Device power" V 7350 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm" H 7250 1300 50  0001 C CNN
+F 3 "" H 7250 1300 50  0001 C CNN
+	1    7250 1300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8850 1900 3    60   Output ~ 0
+Text GLabel 7250 1750 3    60   Output ~ 0
 GND
 Wire Wire Line
-	8800 1650 8900 1650
+	7200 1500 7300 1500
 Wire Wire Line
-	8850 1650 8850 1900
-Connection ~ 8850 1650
-NoConn ~ 8700 1650
-Text Notes 9000 1850 1    60   ~ 0
+	7250 1500 7250 1750
+Connection ~ 7250 1500
+NoConn ~ 7100 1500
+Text Notes 7400 1700 1    60   ~ 0
 RED
 $Comp
 L 74LS138 U1
@@ -17103,8 +17099,151 @@ Wire Wire Line
 Text Notes 5100 2650 1    60   ~ 0
 DMARQ
 NoConn ~ 5100 2650
-Text GLabel 9000 1900 3    60   Input ~ 0
+Text GLabel 7400 1750 3    60   Input ~ 0
 VCC
 Wire Wire Line
-	9000 1650 9000 1900
+	7400 1500 7400 1750
+$Comp
+L 74HCT32N IC1
+U 1 1 5918A6E6
+P 5000 4000
+F 0 "IC1" H 5100 4125 50  0000 L BNN
+F 1 "74HCT32N" H 5100 3800 50  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5000 4150 50  0001 C CNN
+F 3 "" H 5000 4000 60  0001 C CNN
+	1    5000 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT32N IC1
+U 2 1 5918A723
+P 5500 4000
+F 0 "IC1" H 5600 4125 50  0000 L BNN
+F 1 "74HCT32N" H 5600 3800 50  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 5500 4150 50  0001 C CNN
+F 3 "" H 5500 4000 60  0001 C CNN
+	2    5500 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74HCT32N IC1
+U 3 1 5918A770
+P 9200 900
+F 0 "IC1" H 9300 1025 50  0000 L BNN
+F 1 "74HCT32N" H 9300 700 50  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 9200 1050 50  0001 C CNN
+F 3 "" H 9200 900 60  0001 C CNN
+	3    9200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT32N IC1
+U 4 1 5918A7D1
+P 9200 1450
+F 0 "IC1" H 9300 1575 50  0000 L BNN
+F 1 "74HCT32N" H 9300 1250 50  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 9200 1600 50  0001 C CNN
+F 3 "" H 9200 1450 60  0001 C CNN
+	4    9200 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74HCT32N IC1
+U 5 1 5918A826
+P 9850 1300
+F 0 "IC1" H 9950 1425 50  0000 L BNN
+F 1 "74HCT32N" H 9950 1100 50  0000 L BNN
+F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 9850 1450 50  0001 C CNN
+F 3 "" H 9850 1300 60  0001 C CNN
+	5    9850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 5918B0AB
+P 10750 1300
+F 0 "C2" H 10775 1400 50  0000 L CNN
+F 1 "100nF" H 10775 1200 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 10788 1150 50  0001 C CNN
+F 3 "" H 10750 1300 50  0001 C CNN
+	1    10750 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 1150 10750 1050
+Wire Wire Line
+	10750 1050 10400 1050
+Connection ~ 10400 1050
+Wire Wire Line
+	10750 1450 10750 1550
+Wire Wire Line
+	10750 1550 10400 1550
+Connection ~ 10400 1550
+Text GLabel 5250 4600 3    60   Input ~ 0
+IOREQ
+Wire Wire Line
+	5100 4300 5100 4450
+Wire Wire Line
+	5100 4450 5400 4450
+Wire Wire Line
+	5250 4450 5250 4600
+Wire Wire Line
+	5400 4450 5400 4300
+Connection ~ 5250 4450
+Text GLabel 4900 4300 3    60   Input ~ 0
+WR
+Text GLabel 5600 4300 3    60   Input ~ 0
+RD
+Wire Wire Line
+	5200 2300 5200 3450
+Wire Wire Line
+	5300 2300 5300 3450
+Wire Wire Line
+	5500 3700 5500 3450
+Wire Wire Line
+	5500 3450 5300 3450
+Wire Wire Line
+	5000 3700 5000 3450
+Wire Wire Line
+	5000 3450 5200 3450
+Text GLabel 9850 1700 3    60   Output ~ 0
+GND
+Text GLabel 9850 850  1    60   Input ~ 0
+VCC
+Text GLabel 8700 1450 0    60   Input ~ 0
+GND
+Text GLabel 8700 900  0    60   Input ~ 0
+GND
+Wire Wire Line
+	8700 900  8800 900 
+Wire Wire Line
+	8800 800  8800 1000
+Wire Wire Line
+	8800 1000 8900 1000
+Wire Wire Line
+	8800 800  8900 800 
+Connection ~ 8800 900 
+Wire Wire Line
+	8700 1450 8800 1450
+Wire Wire Line
+	8800 1350 8800 1550
+Wire Wire Line
+	8800 1350 8900 1350
+Wire Wire Line
+	8800 1550 8900 1550
+Connection ~ 8800 1450
+Wire Wire Line
+	9850 1700 9850 1600
+Wire Wire Line
+	9850 1000 9850 850 
+NoConn ~ 9500 900 
+NoConn ~ 9500 1450
+Text GLabel 2100 2250 3    60   Output ~ 0
+GND
+Text GLabel 2100 950  1    60   Input ~ 0
+VCC
+Wire Wire Line
+	2100 950  2100 1150
+Wire Wire Line
+	2100 2050 2100 2250
 $EndSCHEMATC
