@@ -3,7 +3,7 @@
   (general
     (links 57)
     (no_connects 0)
-    (area 116.764999 85.014999 215.975001 134.695001)
+    (area 114.865 82.845 217.975 143.975001)
     (thickness 1.6)
     (drawings 46)
     (tracks 248)
@@ -64,8 +64,8 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
-      (usegerberextensions false)
+      (layerselection 0x011fc_80000001)
+      (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "D:/ownCloud/Documents/Projects/RC2014/RC2014 IDE/export/"))
   )
 
   (net 0 "")
