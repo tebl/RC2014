@@ -110,25 +110,20 @@ F 3 "" H 10050 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 10600 6000
-Text GLabel 2000 1100 0    60   Input ~ 0
+Text GLabel 1200 1450 0    60   Input ~ 0
 A4
-Text GLabel 2000 1200 0    60   Input ~ 0
+Text GLabel 1200 1550 0    60   Input ~ 0
 A5
-Text GLabel 2000 1700 0    60   Input ~ 0
+Text GLabel 1200 2050 0    60   Input ~ 0
 A6
 Text GLabel 10600 4100 0    60   Output ~ 0
 M1
-Text GLabel 2000 1600 0    60   Input ~ 0
+Text GLabel 1200 1950 0    60   Input ~ 0
 M1
 Text GLabel 10600 4800 0    60   Output ~ 0
 IOREQ
-Text GLabel 2000 1800 0    60   Input ~ 0
+Text GLabel 1200 2150 0    60   Input ~ 0
 IOREQ
-NoConn ~ 3800 1100
-NoConn ~ 3800 1200
-NoConn ~ 3800 1500
-NoConn ~ 3800 1600
-NoConn ~ 3800 1800
 NoConn ~ 10600 4500
 NoConn ~ 10600 3100
 NoConn ~ 10600 3000
@@ -142,107 +137,106 @@ NoConn ~ 10600 2300
 $Comp
 L 74LS138 U1
 U 1 1 5913CEF9
-P 2600 1450
-F 0 "U1" H 2700 1950 50  0000 C CNN
-F 1 "74LS138" H 2600 900 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 2600 1450 50  0001 C CNN
-F 3 "" H 2600 1450 50  0001 C CNN
-	1    2600 1450
+P 1800 1800
+F 0 "U1" H 1900 2300 50  0000 C CNN
+F 1 "74LS138" H 1800 1250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 1800 1800 50  0001 C CNN
+F 3 "" H 1800 1800 50  0001 C CNN
+	1    1800 1800
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74LS245 U2
 U 1 1 59173606
-P 2650 3050
-F 0 "U2" H 2750 3625 50  0000 L BNN
-F 1 "74LS245" H 2700 2475 50  0000 L TNN
-F 2 "Housings_DIP:DIP-20_W7.62mm_Socket" H 2650 3050 50  0001 C CNN
-F 3 "" H 2650 3050 50  0001 C CNN
-	1    2650 3050
+P 2250 5600
+F 0 "U2" H 2350 6175 50  0000 L BNN
+F 1 "74LS245" H 2300 5025 50  0000 L TNN
+F 2 "Housings_DIP:DIP-20_W7.62mm_Socket" H 2250 5600 50  0001 C CNN
+F 3 "" H 2250 5600 50  0001 C CNN
+	1    2250 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L SN76489AN U3
 U 1 1 59173320
-P 4900 2600
-F 0 "U3" H 4900 2950 50  0000 C CNN
-F 1 "SN76489AN" V 4900 2600 50  0000 C CNN
-F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 4900 3250 50  0001 C CNN
-F 3 "DOCUMENTATION" H 4900 1950 50  0001 C CNN
-	1    4900 2600
+P 4500 5150
+F 0 "U3" H 4500 5500 50  0000 C CNN
+F 1 "SN76489AN" V 4500 5150 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm_Socket" H 4500 5800 50  0001 C CNN
+F 3 "DOCUMENTATION" H 4500 4500 50  0001 C CNN
+	1    4500 5150
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3450 0    60   Output ~ 0
+Text GLabel 1550 6000 0    60   Output ~ 0
 GND
-Text GLabel 3550 3600 3    60   Output ~ 0
+Text GLabel 3150 6150 3    60   Output ~ 0
 GND
-Text GLabel 1950 2550 0    60   Output ~ 0
+Text GLabel 1550 5100 0    60   Output ~ 0
 D0
-Text GLabel 1950 2650 0    60   Output ~ 0
+Text GLabel 1550 5200 0    60   Output ~ 0
 D1
-Text GLabel 1950 2750 0    60   Output ~ 0
+Text GLabel 1550 5300 0    60   Output ~ 0
 D2
-Text GLabel 1950 2850 0    60   Output ~ 0
+Text GLabel 1550 5400 0    60   Output ~ 0
 D3
-Text GLabel 1950 2950 0    60   Output ~ 0
+Text GLabel 1550 5500 0    60   Output ~ 0
 D4
-Text GLabel 1950 3050 0    60   Output ~ 0
+Text GLabel 1550 5600 0    60   Output ~ 0
 D5
-Text GLabel 1950 3150 0    60   Output ~ 0
+Text GLabel 1550 5700 0    60   Output ~ 0
 D6
-Text GLabel 1950 3250 0    60   Output ~ 0
+Text GLabel 1550 5800 0    60   Output ~ 0
 D7
-Text GLabel 5650 2350 2    60   Input ~ 0
+Text GLabel 5250 4900 2    60   Input ~ 0
 D0
-Text GLabel 5650 2450 2    60   Input ~ 0
+Text GLabel 5250 5000 2    60   Input ~ 0
 D1
-Text GLabel 5650 2550 2    60   Input ~ 0
+Text GLabel 5250 5100 2    60   Input ~ 0
 D2
-Text GLabel 5650 2650 2    60   Input ~ 0
+Text GLabel 5250 5200 2    60   Input ~ 0
 D3
-Text GLabel 5650 2850 2    60   Input ~ 0
+Text GLabel 5250 5400 2    60   Input ~ 0
 D4
-Text GLabel 4150 2250 0    60   Input ~ 0
+Text GLabel 3750 4800 0    60   Input ~ 0
 D5
-Text GLabel 4150 2350 0    60   Input ~ 0
+Text GLabel 3750 4900 0    60   Input ~ 0
 D6
-Text GLabel 4150 2450 0    60   Input ~ 0
+Text GLabel 3750 5000 0    60   Input ~ 0
 D7
-Text GLabel 5650 2950 2    60   Input ~ 0
+Text GLabel 5250 5500 2    60   Input ~ 0
 VCC
-NoConn ~ 5650 2250
-Text GLabel 2000 1300 0    60   Input ~ 0
+NoConn ~ 5250 4800
+Text GLabel 1200 1650 0    60   Input ~ 0
 WR
-NoConn ~ 3800 1400
-Text Label 3150 1500 0    60   ~ 0
+Text Label 2350 1850 0    60   ~ 0
 Port0_RD
-Text Label 3150 1100 0    60   ~ 0
+Text Label 2350 1450 0    60   ~ 0
 Port0_WR
-Text Label 3150 1200 0    60   ~ 0
+Text Label 2350 1550 0    60   ~ 0
 Port16_WR
-Text Label 3150 1300 0    60   ~ 0
+Text Label 2350 1650 0    60   ~ 0
 Port32_WR
-Text Label 3150 1400 0    60   ~ 0
+Text Label 2350 1750 0    60   ~ 0
 Port48_WR
-Text Label 3150 1600 0    60   ~ 0
+Text Label 2350 1950 0    60   ~ 0
 Port16_RD
-Text Label 3150 1700 0    60   ~ 0
+Text Label 2350 2050 0    60   ~ 0
 Port32_RD
-Text Label 3150 1800 0    60   ~ 0
+Text Label 2350 2150 0    60   ~ 0
 Port48_RD
 Text GLabel 10600 4300 0    60   Output ~ 0
 CLOCK
-Text GLabel 5650 2750 2    60   Input ~ 0
+Text GLabel 5250 5300 2    60   Input ~ 0
 CLOCK
-Text GLabel 3800 1700 2    60   Output ~ 0
-PORT32_RD
-Text GLabel 3800 1300 2    60   Output ~ 0
-PORT32_WR
-Text GLabel 4000 3250 3    60   Input ~ 0
-PORT32_WR
-Text GLabel 1700 3700 3    60   Input ~ 0
-PORT32_RD
-Text GLabel 4150 3250 3    60   Output ~ 0
+Text GLabel 3750 2150 2    60   Output ~ 0
+IO_RD
+Text GLabel 3750 1450 2    60   Output ~ 0
+IO_WR
+Text GLabel 3600 5800 3    60   Input ~ 0
+IO_WR
+Text GLabel 1300 6250 3    60   Input ~ 0
+IO_RD
+Text GLabel 3750 5800 3    60   Output ~ 0
 SND_OUT
 $Comp
 L C C2
@@ -369,63 +363,61 @@ F 3 "" H 6800 3900 50  0001 C CNN
 	1    6800 3900
 	-1   0    0    1   
 $EndComp
+NoConn ~ 8050 3300
+$Comp
+L CONN_02X08 J4
+U 1 1 591A29AB
+P 3250 1800
+F 0 "J4" H 3250 2250 50  0000 C CNN
+F 1 "CONN_02X08" V 3250 1800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.54mm" H 3250 600 50  0001 C CNN
+F 3 "" H 3250 600 50  0001 C CNN
+	1    3250 1800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	10050 850  10050 1150
 Wire Wire Line
 	10050 1450 10050 1700
 Wire Wire Line
-	3350 2550 4150 2550
+	2950 5100 3750 5100
 Wire Wire Line
-	3350 2650 3550 2650
+	2950 5200 3150 5200
 Wire Wire Line
-	3550 2650 3550 3600
+	3150 5200 3150 6150
 Wire Wire Line
-	3350 2750 3550 2750
-Connection ~ 3550 2750
+	2950 5300 3150 5300
+Connection ~ 3150 5300
 Wire Wire Line
-	3350 2850 3550 2850
-Connection ~ 3550 2850
+	2950 5400 3150 5400
+Connection ~ 3150 5400
 Wire Wire Line
-	3350 2950 4150 2950
-Connection ~ 3550 2950
+	2950 5500 3750 5500
+Connection ~ 3150 5500
 Wire Wire Line
-	3350 3050 3550 3050
-Connection ~ 3550 3050
+	2950 5600 3150 5600
+Connection ~ 3150 5600
 Wire Wire Line
-	3350 3150 3550 3150
-Connection ~ 3550 3150
+	2950 5700 3150 5700
+Connection ~ 3150 5700
 Wire Wire Line
-	3350 3250 3550 3250
-Connection ~ 3550 3250
+	2950 5800 3150 5800
+Connection ~ 3150 5800
 Wire Wire Line
-	3200 1400 3800 1400
+	3000 1450 2400 1450
 Wire Wire Line
-	3800 1300 3200 1300
+	1300 6250 1300 6100
 Wire Wire Line
-	3800 1200 3200 1200
+	1300 6100 1550 6100
 Wire Wire Line
-	3800 1500 3200 1500
+	3600 5200 3600 5800
 Wire Wire Line
-	3800 1600 3200 1600
+	3600 5200 3750 5200
 Wire Wire Line
-	3800 1700 3200 1700
+	3750 5300 3600 5300
+Connection ~ 3600 5300
 Wire Wire Line
-	3800 1800 3200 1800
-Wire Wire Line
-	3800 1100 3200 1100
-Wire Wire Line
-	1700 3700 1700 3550
-Wire Wire Line
-	1700 3550 1950 3550
-Wire Wire Line
-	4000 2650 4000 3250
-Wire Wire Line
-	4000 2650 4150 2650
-Wire Wire Line
-	4150 2750 4000 2750
-Connection ~ 4000 2750
-Wire Wire Line
-	4150 2850 4150 3250
+	3750 5400 3750 5800
 Wire Wire Line
 	10050 1050 10650 1050
 Wire Wire Line
@@ -481,5 +473,44 @@ Wire Wire Line
 	6600 3350 6600 3600
 Connection ~ 6600 3600
 Connection ~ 6600 3500
-NoConn ~ 8050 3300
+Wire Wire Line
+	2400 2050 3000 2050
+Wire Wire Line
+	2400 2150 3000 2150
+Wire Wire Line
+	2400 1950 3000 1950
+Wire Wire Line
+	2400 1850 3000 1850
+Wire Wire Line
+	2400 1750 3000 1750
+Wire Wire Line
+	2400 1650 3000 1650
+Wire Wire Line
+	2400 1550 3000 1550
+Wire Wire Line
+	3500 2150 3750 2150
+Wire Wire Line
+	3500 2050 3650 2050
+Wire Wire Line
+	3650 1850 3650 2150
+Connection ~ 3650 2150
+Wire Wire Line
+	3650 1950 3500 1950
+Connection ~ 3650 2050
+Wire Wire Line
+	3500 1850 3650 1850
+Connection ~ 3650 1950
+Wire Wire Line
+	3500 1450 3750 1450
+Wire Wire Line
+	3500 1750 3650 1750
+Wire Wire Line
+	3650 1750 3650 1450
+Connection ~ 3650 1450
+Wire Wire Line
+	3500 1650 3650 1650
+Connection ~ 3650 1650
+Wire Wire Line
+	3500 1550 3650 1550
+Connection ~ 3650 1550
 $EndSCHEMATC
