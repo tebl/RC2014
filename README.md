@@ -36,4 +36,4 @@ to want to make a single PCB so this way I can use more of them at once!
 The PCB places the paging pin on one of the spare pins of the backplane, that way I
 don't have to run any wires between the cards.
 
-![IDE PCB](https://raw.githubusercontent.com/tebl/RC2014/master/Gallery/RC2014%20RAM/pcb.PNG)
+![RAM PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20RAM/gallery/pcb.PNG)
