@@ -24,7 +24,7 @@ connector used on the officialy available Compact Flash module, here I instead u
 cheap Compact Flash to IDE adapter and wire that up instead. See Scripts for a 
 sample Basic-script that can be used to test the adapter.
 
-![IDE PCB](https://raw.githubusercontent.com/tebl/RC2014/master/Gallery/RC2014%20IDE/pcb.PNG)
+![IDE PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20IDE/gallery/pcb.PNG)
 
 ### RC2014 RAM
 

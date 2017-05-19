@@ -9,9 +9,9 @@ While this could theoretically be used to connect the RC2014-computer to any IDE
 device using a ribbon cable, most if them don't support 8-bit mode anymore - that's
 why Compact Flash cards have seen so much use within Retro-computing.
 
-![IDE PCB](https://raw.githubusercontent.com/tebl/RC2014/master/Gallery/RC2014%20IDE/pcb.PNG)
+![IDE PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20IDE/gallery/pcb.PNG)
 
-![Wired up](https://raw.githubusercontent.com/tebl/RC2014/master/Gallery/RC2014%20IDE/2017-05-13%2012.11.12.jpg)
+![Wired up](https://github.com/tebl/RC2014/raw/master/RC2014%20IDE/gallery/2017-05-13%2012.11.12.jpg)
 
 # Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a starting
