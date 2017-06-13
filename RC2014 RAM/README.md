@@ -4,7 +4,7 @@ This is a customized RAM module that enables you to page the module in and out, 
 
 The PCB places the paging pin on one of the spare pins of the backplane, that way I don't have to run any wires between the cards.
 
-![RAM PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20RAM/export/pcb.PNG)
+![RAM PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20RAM/export/pcb.png)
 
 # Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](https://github.com/tebl/RC2014/raw/master/RC2014%20RAM/export/RC2014%20RAM.pdf) so that you can refer to it while troubleshooting bad solder joints.
