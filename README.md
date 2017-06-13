@@ -1,39 +1,13 @@
 # RC2014
 
-I've been spending a lot of time lately working on extensions to the excellent
-RC2014 machine, check out the official web page at [http://rc2014.co.uk](http://rc2014.co.uk)
-if you're not familiar with it. Short story; it's a Z80-based homecomputer that
-you can build yourself using a soldering iron, lots of time and severely burned
-fingers. Unquestionably, a lot of fun!
+I've been spending a lot of time lately working on extensions to the excellent RC2014 machine, check out the official web page at [http://rc2014.co.uk](http://rc2014.co.uk) if you're not familiar with it. Short story; it's a Z80-based homecomputer that you can build yourself using a soldering iron, lots of time and severely burned fingers. A lot of fun indeed!
 
-I've been documenting the build process of the various components on my blog at
-[https://hvetebolle.blogspot.no/](https://hvetebolle.blogspot.no/), but be warned
-that it's in my native language (Norwegian) so this might not be anywhere close to
-readable for most people.
+I've been documenting the build process of the various components on my blog at [https://hvetebolle.blogspot.no/p/rc2014.html](https://hvetebolle.blogspot.no/p/rc2014.html), but take note that it's in my native language of Norwegian so it might not register as readable for most people.
 
-## Repository contents
+## Modules
 
-I'll be making a subfolder for each of the modules I've been working on, most of
-the files will be in KiCad format so you'll need this open source application
-installed if you intend to work with the schematics.
+I'll be making a subfolder for each of the modules I've been working on, most of the files will be in KiCad format so you'll need this open source application installed if you intend to work with the schematics. For the most part I will include the necessary Gerber files (for PCB production) in each modules export folder, the schematic in PDF-format will also probably be included - also, in the export folder.
 
-### RC2014 IDE
-
-This is an IDE ATA adapter I've been working so that I can avoid the surface mount
-connector used on the officialy available Compact Flash module, here I instead use
-cheap Compact Flash to IDE adapter and wire that up instead. See Scripts for a 
-sample Basic-script that can be used to test the adapter.
-
-![IDE PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20IDE/gallery/pcb.PNG)
-
-### RC2014 RAM
-
-This is a customized RAM module that enables you to page the module in and out, 
-similar to the 64K module available. The difference here is that I'm only using
-one RAM chip per card. The reason for this is simple, PCB manufacturers don't seem
-to want to make a single PCB so this way I can use more of them at once!
-
-The PCB places the paging pin on one of the spare pins of the backplane, that way I
-don't have to run any wires between the cards.
-
-![RAM PCB](https://github.com/tebl/RC2014/raw/master/RC2014%20RAM/gallery/pcb.PNG)
+* [RC2014 IDE ATA adapter](https://github.com/tebl/RC2014/tree/master/RC2014%20IDE)
+* [RC2014 Pageable RAM](https://github.com/tebl/RC2014/tree/master/RC2014%20RAM)
+* [RC2014 Tandy Sound Card](https://github.com/tebl/RC2014/tree/master/RC2014%20Tandy%20Sound%20Card)

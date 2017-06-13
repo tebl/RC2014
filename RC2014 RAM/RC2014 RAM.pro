@@ -1,4 +1,4 @@
-update=03/05/2017 19:49:35
+update=13/06/2017 15:01:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,3 +58,13 @@ LibName28=contrib
 LibName29=valves
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=D:/ownCloud/Documents/Projects/RC2014/RC2014 RAM/export/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
