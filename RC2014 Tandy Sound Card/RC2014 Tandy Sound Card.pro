@@ -1,4 +1,4 @@
-update=19/05/2017 18:57:14
+update=13/06/2017 14:48:58
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,7 +63,7 @@ LibName31=TDA7056A
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=D:/ownCloud/Documents/Projects/RC2014/RC2014 IDE/export/
+PlotDirectoryName=D:/ownCloud/Documents/Projects/RC2014/RC2014 Tandy Sound Card/export/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
